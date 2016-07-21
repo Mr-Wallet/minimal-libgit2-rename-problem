@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-class MySpecialClass {
+class MyClass {
   constructor({options, promise, types}) {
     this.options = _.clone(options);
     this.things = _.clone(things);
@@ -16,4 +16,4 @@ class MySpecialClass {
   }
 }
 
-module.exports = MySpecialClass;
+module.exports = MyClass;
